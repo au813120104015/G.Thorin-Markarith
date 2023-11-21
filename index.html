@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	body
+	{
+		background:black; 
+	}
+	#img
+	{
+		position: absolute;
+		top:20%;
+		left:33%;
+		transform: translate(0%,0%);
+		animation: nm 10s infinite;
+		
+	}
+	@keyframes nm{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	   }
+	}
+	.txt{
+		font-size: 50px;
+		font-family: Arial Rounded MT;
+		top:0%;
+		left:35%;
+		transform: translate(33%,50%);
+		animation: color 1s infinite;
+
+	}
+	@keyframes color {
+  		0%   {color: red;}
+  		25%  {color: yellow;}
+  		50%  {color: blue;}
+  		100% {color: green;}
+	}
+}
+
+	</style>
+</head>
+<body>
+	<h1 class="txt">Astrology Horoscope</h1>
+	<div id="img"><a href="C:\Users\asus\Desktop\Horoscope\horoscope.html"><img src="hs.png"></a></div>	
+</body>
+</html>

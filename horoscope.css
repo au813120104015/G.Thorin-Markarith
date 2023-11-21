@@ -1,0 +1,108 @@
+body
+{
+	background: linear-gradient(to left,#2E23B2  40%,#070059  60%);
+}
+#container
+{
+	width:80%;
+	height: 700px;
+	font-size: 	20px;
+	font-family: Arial Rounded MT;
+	background-color: linear-gradient(to left,#2E23B2  40%,#070059  60%);
+	color: white;
+	margin: auto; 
+}
+#header
+{
+	height: 70px;
+	line-height: 70px;
+	font-family: Arial Rounded MT;
+	text-transform: uppercase;
+	color: whitesmoke;
+	text-align: center;
+	background: linear-gradient(to left,#2E23B2  40%,#070059  60%);
+}
+#selectarea
+{
+	padding-left: 20px;
+	font-weight: bolder;
+	color: chocolate;
+}
+#horoscopetxt
+{
+	height: 450px;
+	padding-right: 20px;
+	border-color: linear-gradient(to left,#2E23B2  40%,#070059  60%);
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	background:linear-gradient(to left,#820505  40%,#F24343  60%);
+}
+#textrow2
+{
+	font-size: 	20px;
+	font-family: Arial Rounded MT;
+	background: linear-gradient(to left,#820505  40%,#F24343  60%);
+	color:white;
+	user-select: none;
+}
+
+#img_horo
+{
+	margin-right:150px;
+	height: 50px;
+	width: 50px;
+	top:50%;
+	left:-50%;
+	transform: translate(1800%,250%);
+}
+#horoscope
+{
+	font-size: 	30px;
+	font-family: Arial Rounded MT;
+	text-transform: uppercase;
+	color:white;
+	background: #F24343;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,1);
+	border-radius: 20px;
+
+}
+#horoscope:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.50)
+}
+#txt
+{
+	font-size: 	20px;
+	font-family: Arial Rounded MT;
+	text-transform: uppercase;
+
+}
+#restartbtn
+{
+	float: right;
+	font-size: 	30px;
+	font-family: Arial Rounded MT;
+	text-transform: uppercase;
+	color:white;
+	background: #820505;
+	border-radius: 20px;;
+	border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,1);
+}
+
+#restartbtn:hover 
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,1);
+}
+
+.txtheader
+{
+	animation: color 1s infinite;
+}
+@keyframes color {
+  		0%   {color: red;}
+  		25%  {color: yellow;}
+  		50%  {color: white;}
+  		100% {color: green;}
+	}
